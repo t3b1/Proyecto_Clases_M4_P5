@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(72, 72, 179);
+    font-family: Arial, sans-serif;
+}
+.contenedor {
+    margin: 0 35%;
+    justify-content:center;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+.input  {
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    padding-top: opx;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 18px;
+}
+.btn-agregar {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+}
+.btn-agregar:hover {
+    opacity: 0.9;
+}
