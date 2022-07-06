@@ -49,9 +49,13 @@ class Item  {
 }
 
 btnAgrgar.addEventListener('click', () => {
-    if(!inputPrincipal.value.trim() == '') {
-        const nuevoItem = new Item(inputPrincipal.value);
-        localStorage.setItem(Item, inputItem);
+    chequearInput();
+
+})
+
+inputPrincipal.addEventListener('keydown', (evento) => {
+    if(evento.keyCode === 13){
+        chequearInput();
     }
 })
 
@@ -62,3 +66,10 @@ btnAgrgar.addEventListener('click', () => {
     saveItem = localStorage.getItem('tarea');
 
 }*/
+
+function chequearInput(){
+    if(!inputPrincipal.value.trim() == ''){
+        const nuevoItem = new Item(inputPrincipal.value);
+        inputPrincipal.value = '';
+    }
+}
