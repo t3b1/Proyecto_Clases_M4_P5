@@ -32,3 +32,6 @@ h1{
 .btn-agregar:hover {
     opacity: 0.9;
 }
+.item {
+    text-align: center;
+}
