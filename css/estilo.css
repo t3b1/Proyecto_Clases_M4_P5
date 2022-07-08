@@ -18,20 +18,52 @@ h1{
     padding-bottom: 0px;
     padding-left: 20px;
     padding-right: 20px;
+    border: none;
     border-radius: 10px;
     background-color: #fff;
     font-size: 18px;
+    outline: none;
 }
 .btn-agregar {
     width: 50px;
     height: 50px;
     margin: 5px;
+    border: none;
     border-radius: 10px;
     background-color: rgb(255, 6, 46);
+    outline: none;
 }
 .btn-agregar:hover {
     opacity: 0.9;
 }
 .item {
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.item-input {
+    padding: 0 20px;
+    border: solid 2px;
+    font-size: 18px;
+    color: #fff;
+    background: none;
+    outline: none;
+}
+.btn-editar {
+    margin: 0 5px;
+    border: none;
+    background: none;
+    text-decoration-color: #62d0ff;
+    font-size: 1.4rem;
+    font-family: Montserrat, sans-serif;
+}
+
+.btn-remover {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 6, 46);
+    font-size: 20px; 
 }

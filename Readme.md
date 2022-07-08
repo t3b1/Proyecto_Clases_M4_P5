@@ -15,4 +15,4 @@ _Esteban Gonzalez
 _github (t3b1)
 
 ### Proceso 🔧
--en contruccion
+- terminado
